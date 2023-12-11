@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "composite": true, // 允许 tsconfig.json 引用该文件
+    "skipLibCheck": true, // 跳过检查 node_modules 中的库
+    "module": "ESNext", // 使用 ESNext 模块
+    "moduleResolution": "bundler", // 使用 vite 的模块解析
+    "allowSyntheticDefaultImports": true // 允许默认导入
+  },
+  "include": ["vite.config.ts"]
+}
