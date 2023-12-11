@@ -33,3 +33,6 @@ tsconfig.build.json 配置如下
     "build": "vite build && tsc --project tsconfig.build.json",
   }
 ```
+# 安装storybook
+pnpm dlx storybook@latest init
+// 这时候只需要在组件下创建一个.stories.tsx文件就可以了
